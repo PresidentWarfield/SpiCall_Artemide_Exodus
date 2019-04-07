@@ -17,7 +17,7 @@ The code is a potpourri of already known instruction sets, but **has exposed bot
 The MQTT protocol to manage the C2C operations
 
 ## For Governments
-It would be enough to backtrack or simply use
+It would be enough to backtrack or simply use:
 - App-Store / Developer token
   - To know the real email address / identity of the developer(s)
 - The built in RSA key
