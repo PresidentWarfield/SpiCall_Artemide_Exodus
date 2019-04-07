@@ -26,3 +26,8 @@ It would be enough to backtrack or simply use
   - To see which devices are / were infected
   
 At the present day C2C (**5.** ...) servers are still up togheter with several stolen data repositories (**80.** ...). 
+
+---
+![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot001.png)
+![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot003.png)
+![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot002.png)
