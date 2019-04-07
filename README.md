@@ -29,5 +29,7 @@ At the present day C2C (**5.** ...) servers are still up togheter with several s
 
 ---
 ![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot001.png)
+
 ![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot003.png)
+
 ![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot002.png)
