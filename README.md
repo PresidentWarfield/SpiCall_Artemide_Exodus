@@ -11,7 +11,7 @@ Some piece of the code are truncated to avoid enticing unauthorized or unethical
 The contents included into this repository have been released into the public domain since the original working application has been deliberately made public without restrictions (as a method of mass infection) through app stores.
 
 ## General Consideration
-The code is a potpourri of already known instruction sets, but has exposed both the producer and the victim to very high privacy risks.
+The code is a potpourri of already known instruction sets, but **has exposed both the producer and the victim to very high privacy risks**.
 
 ## Peculiarity
 The MQTT protocol to manage the C2C operations
