@@ -4,6 +4,13 @@ Reversing of the C2C SpiCall | Artemide | Spartacus | initiator of Exodus Androi
 ## Preamble
 This a project created for **Malware Analysis** and **Research purpose**, and is the last step of a standard procedure (https://github.com/users/PresidentWarfield/projects/1) aimed **to research threat techniques and develop defenses**.
 
+**This repository is linked to the Exodus mobile malware campaing because**:
+- The package name of the malicious app (no longer) included in the on-line store is "**it.nv.wat**"
+  - Same prefix ("**it.nv**") indicated a number of app already flagged as malicious and removed from the store as well, since the end of March 2019 associated to Exodus spyware family.
+- Match / Correlation performed by hash and developer API value(s)
+  - Developer token restricted due to privacy
+  - MD5 checksum: **edeea0b34d3f1298a6930e3970401d82**
+
 ## Why those repositories are important
 ### Discover it yourself
 - See how (e.g.) WhatsApp is intercepted on a phone: https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?p=2&q=whatsapp&unscoped_q=whatsapp
