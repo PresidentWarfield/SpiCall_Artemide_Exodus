@@ -4,6 +4,11 @@ Reversing of the C2C SpiCall | Artemide | Spartacus | initiator of Exodus Androi
 ## Preamble
 This a project created for **Malware Analysis** and **Research purpose**, and is the last step of a standard procedure (https://github.com/users/PresidentWarfield/projects/1) aimed **to research threat techniques and develop defenses**.
 
+## Why those repositories are important
+### Discover it yourself
+- See how (e.g.) WhatsApp is intercepted on a phone: https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?p=2&q=whatsapp&unscoped_q=whatsapp
+- See how (e.g.) C2C commands are executed on a phone: https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?q=CMD_NAME&unscoped_q=CMD_NAME
+
 ## Truncated for Privacy
 Some piece of the code are truncated to avoid enticing unauthorized or unethical actions, but in any case the understanding of the code remains unchanged.
 
