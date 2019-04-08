@@ -6,7 +6,7 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
 
 **This repository is linked to the Exodus mobile malware campaing because**:
 - The package name of the malicious app (no longer) included in the on-line store is "**it.nv.wat**"
-  - Same prefix ("**it.nv**") indicated a number of app already flagged as malicious and removed from the store as well, since the end of March 2019 associated to Exodus spyware family.
+  - Same prefix ("**it.nv**") indicated a number of app already flagged as malicious and removed from the store as well, since the end of March 2019 associated to Exodus spyware family
 - Match / Correlation performed by hash and developer API value(s)
   - Developer token restricted due to privacy
   - MD5 checksum: **edeea0b34d3f1298a6930e3970401d82**
