@@ -4,7 +4,7 @@ Reversing of the C2C SpiCall | Artemide | Spartacus | Possible initiator of Exod
 ## Preamble
 This a project created for **Malware Analysis** and **Research purpose**, and is the last step of a standard procedure (https://github.com/users/PresidentWarfield/projects/1) aimed **to research threat techniques and develop defenses**.
 
-## This Mass Surveillance Spyware campaing is named "**SpiCall | Artemide | Spartacus**" from the details present into the extracted electronic certificate (please refer to images below).
+## This Mass Surveillance Spyware campaing is named "**SpiCall | Artemide | Spartacus**" from the details present into the extracted electronic certificate (please refer to images at page bottom).
 
 **This repository was (somehow) linked to the Exodus mobile malware campaing because**:
 - The package name of the malicious app (that was supposed to be no longer) included in the on-line store was "**it.nv.wat**"
@@ -14,7 +14,7 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
   - MD5 checksum of the analysed App was already fingerprinting the spyware: **edeea0b34d3f1298a6930e3970401d82**
   
  # Unexpectedly
- At the moment of the **update** of this README file (**11 APR 2019**), another **spy-app** with the same package name ("**it.nv.wat**"), same code, same developer token but (of course) different MD5 checkusum (**e0d5e0b626183e13c97d2719383c5dd7**) it's again available at the following address (hopefully it will be removed soon): **hXXps://play.google.com/store/apps/developer?id=Acca+Software**
+ At the moment of the **update** of this README file (**11 APR 2019**), another **spy-app** with the same package name ("**it.nv.wat**"), same code, same developer token but (of course) different MD5 checkusum (**e0d5e0b626183e13c97d2719383c5dd7**) it's again available at the following address (hopefully it will be removed soon): **hXXps://play.google.com/store/apps/details?id=it.nv.wat**
 
 ![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot005.png)
 
