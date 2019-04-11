@@ -1,17 +1,24 @@
-# SpiCall_Artemide_Exodus
-Reversing of the C2C SpiCall | Artemide | Spartacus | initiator of Exodus Android Spyware Campaign
+# SpiCall | Artemide | Spartacus : Possible initiator of Exodus Android and iOS Spyware Campaign
+Reversing of the C2C SpiCall | Artemide | Spartacus | Possible initiator of Exodus Android and iOS Spyware Campaign
 
 ## Preamble
 This a project created for **Malware Analysis** and **Research purpose**, and is the last step of a standard procedure (https://github.com/users/PresidentWarfield/projects/1) aimed **to research threat techniques and develop defenses**.
 
-**This repository is linked to the Exodus mobile malware campaing because**:
-- The package name of the malicious app (no longer) included in the on-line store is "**it.nv.wat**"
-  - Same prefix ("**it.nv**") indicated a number of app already flagged as malicious and removed from the store as well, since the end of March 2019 associated to Exodus spyware family
-- Match / Correlation performed by hash and developer API value(s)
-  - Developer token restricted due to privacy
-  - MD5 checksum: **edeea0b34d3f1298a6930e3970401d82**
+## This Mass Surveillance Spyware campaing is named **SpiCall | Artemide | Spartacus** from the details present into the extracted electronic certificate (please refer to images below).
 
-## Why those repositories are important
+**This repository was (somehow) linked to the Exodus mobile malware campaing because**:
+- The package name of the malicious app (that was supposed to be no longer) included in the on-line store was "**it.nv.wat**"
+  -This identifier was immediately associated to a number of apps flagged as malicious, and promptly removed from the store since the end of March 2019, then associated to Exodus spyware family
+- Match / Correlation performed by hash and developer API value(s) confirmed the malicious nature of the App.
+  - Developer token (restricted due to privacy) was associated to illegitimate / malicious behaviours as well.
+  - MD5 checksum of the analysed App was: **edeea0b34d3f1298a6930e3970401d82**
+  
+ # Unexpectedly
+ At the moment of the **update** of this README file (**11 APR 2019**), another **spy-app** with the same package name ("**it.nv.wat**"), same code, same developer token but (of course) different MD5 checkusum (**e0d5e0b626183e13c97d2719383c5dd7**) it's again available at this address (hopefully it will be removed soon): **hXXps://play.google.com/store/apps/developer?id=Acca+Software**
+ 
+**_Why this App is still / Again available as a public repository? **
+
+## Stated that we think that those repositories are meaningful because everyone can understand how a privacy leak works:
 ### Discover it yourself
 - See how (e.g.) WhatsApp is intercepted on a phone: https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?p=2&q=whatsapp&unscoped_q=whatsapp
 - See how (e.g.) C2C commands are executed on a phone: https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?q=CMD_NAME&unscoped_q=CMD_NAME
