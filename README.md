@@ -15,6 +15,10 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
   
  # Unexpectedly
  At the moment of the **update** of this README file (**11 APR 2019**), another **spy-app** with the same package name ("**it.nv.wat**"), same code, same developer token but (of course) different MD5 checkusum (**e0d5e0b626183e13c97d2719383c5dd7**) it's again available at the following address (hopefully it will be removed soon): **hXXps://play.google.com/store/apps/developer?id=Acca+Software**
+
+![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot005.png)
+
+![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot004.png)
  
 # Legitimate question
 **Why is this App still / Again available as a public resource?**
