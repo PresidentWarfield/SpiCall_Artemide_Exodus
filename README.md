@@ -19,9 +19,13 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
 ![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot005.png)
 
 ![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot004.png)
- 
+
 # Legitimate question
 **Why is this App still / Again available as a public resource?**
+
+![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screencast.gif)
+
+Original screencast available [here](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screencast.mp4).
 
 ## Stated that, we think that those repositories are meaningful because everyone can understand how a privacy leak works:
 ### Discover it yourself
