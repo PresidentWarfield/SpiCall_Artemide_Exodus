@@ -49,7 +49,7 @@ It would be enough to backtrack or simply use:
 - App-Store / Developer token
   - To know the real email address / identity of the developer(s)
 - The built in RSA key
-  - To authenticate onto remote resources where all the data collected are stored indiscriminately
+  - That gives consistent "tips & tricks" about remote authentication mechanisms on resources where all the data collected are stored indiscriminately
 - The Fabric / CrashLytics credentials
   - To see which devices are / were infected
   
