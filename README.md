@@ -23,7 +23,7 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
 ## Legitimate question
 **Why this (spy)App and similar ones are still / again available as a public resource?**
 
-**Did the developer(s) publish it again after the so called "Exodus" wave?
+**Did the developer(s) publish it again after the so called "Exodus" wave?**
 
 ![](/screenshots/screencast.gif)
 
