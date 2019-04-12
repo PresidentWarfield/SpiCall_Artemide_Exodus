@@ -23,17 +23,6 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
 ## Legitimate question
 **Why this (spy)App and similar ones are still / again available as a public resource?**
 
-**We already isolated a number of sensiteve domains, IPs and Developer IDs / Email** (restricted due to privacy)
-
-```
-f*ncy-c*ll*c*i*n.<ext>
-c*r*sc*ns.*nlin*
-c*r*sc*ns.<ext>
-*******sm**chm*k*r.<ext>
-*ss*nn*i*.<ext>
-(...)
-```
-
 **Did the developer(s) publish it again after the so called "Exodus" wave?
 
 ![](/screenshots/screencast.gif)
