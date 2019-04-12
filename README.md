@@ -29,8 +29,15 @@ Original screencast available [here](https://github.com/PresidentWarfield/SpiCal
 
 ## Stated that, we think that those repositories are meaningful because everyone can understand how a privacy leak works:
 ### Discover it yourself
-- See how (e.g.) WhatsApp is intercepted on a phone: https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?p=2&q=whatsapp&unscoped_q=whatsapp
-- See how (e.g.) C2C commands are executed on a phone: https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?q=CMD_NAME&unscoped_q=CMD_NAME
+- See how (e.g.) [WhatsApp is intercepted on a phone](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?p=2&q=whatsapp&unscoped_q=whatsapp):
+```
+https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?p=2&q=whatsapp&unscoped_q=whatsapp
+```
+
+- See how (e.g.) [C2C commands are executed on a phone](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?q=CMD_NAME&unscoped_q=CMD_NAME):
+```
+https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?q=CMD_NAME&unscoped_q=CMD_NAME
+```
 
 ## Truncated for Privacy
 Some piece of the code are truncated to avoid enticing unauthorized or unethical actions, but in any case the understanding of the code remains unchanged.
