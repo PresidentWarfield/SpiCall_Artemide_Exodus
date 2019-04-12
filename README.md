@@ -61,3 +61,6 @@ At the present day C2C (**5.** ...) servers are still up togheter with several s
 ![](/screenshots/screenshot003.png)
 
 ![](/screenshots/screenshot002.png)
+
+---
+https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master
