@@ -2,7 +2,7 @@
 Reversing of the C2C SpiCall | Artemide | Spartacus | Possible initiator of Exodus Android and iOS Spyware Campaign
 
 ## Preamble
-This a project created for **Malware Analysis** and **Research purpose**, and is the last step of a [standard procedure] (https://github.com/users/PresidentWarfield/projects/1) aimed **to research threat techniques and develop defenses**.
+This a project created for **Malware Analysis** and **Research purpose**, and is the last step of a [standard procedure](https://github.com/users/PresidentWarfield/projects/1) aimed **to research threat techniques and develop defenses**.
 
 ## This Mass Surveillance Spyware campaing is named "**SpiCall | Artemide | Spartacus**" from the details present into the extracted electronic certificate (please refer to images at page bottom).
 
