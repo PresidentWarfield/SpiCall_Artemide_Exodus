@@ -12,8 +12,8 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
 - Match / Correlation performed by hash and developer API value(s) confirmed the malicious nature of the App
   - Developer token (restricted due to privacy) was associated to illegitimate / malicious behaviours as well
   - MD5 checksum of the analysed App was already fingerprinting the spyware via the following hash: **edeea0b34d3f1298a6930e3970401d82**
-  
- ## Unexpectedly
+
+## Unexpectedly
  At the moment of the **update** of this README file (**11 APR 2019**), another **spy-app** with the same package name ("**it.nv.wat**"), same fingerprints but (of course) different MD5 checkusum (**e0d5e0b626183e13c97d2719383c5dd7**) it's again available at the following address (hopefully it will be removed soon): **hXXps://play.google.com/store/apps/details?id=it.nv.wat**
 
 ![](/screenshots/screenshot005.png)
