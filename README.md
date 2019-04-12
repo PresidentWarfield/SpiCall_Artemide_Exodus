@@ -16,14 +16,14 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
  ## Unexpectedly
  At the moment of the **update** of this README file (**11 APR 2019**), another **spy-app** with the same package name ("**it.nv.wat**"), same code, same developer token but (of course) different MD5 checkusum (**e0d5e0b626183e13c97d2719383c5dd7**) it's again available at the following address (hopefully it will be removed soon): **hXXps://play.google.com/store/apps/details?id=it.nv.wat**
 
-![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot005.png)
+![](/screenshots/screenshot005.png)
 
-![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot004.png)
+![](/screenshots/screenshot004.png)
 
 ## Legitimate question
 **Why this (spy)App is still / again available as a public resource?**
 
-![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screencast.gif)
+![](/screenshots/screencast.gif)
 
 Original screencast available [here](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screencast.mp4).
 
@@ -56,8 +56,8 @@ It would be enough to backtrack or simply use:
 At the present day C2C (**5.** ...) servers are still up togheter with several stolen data repositories (**80.** ...). 
 
 ---
-![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot001.png)
+![](/screenshots/screenshot001.png)
 
-![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot003.png)
+![](/screenshots/screenshot003.png)
 
-![](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screenshot002.png)
+![](/screenshots/screenshot002.png)
