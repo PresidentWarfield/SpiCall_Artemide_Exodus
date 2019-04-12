@@ -26,53 +26,12 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
 **We already isolated a number of sensiteve domains, IPs and Developer IDs / Email** (restricted due to privacy)
 
 ```
-
-*****i*isr**l.<ext>
 f*ncy-c*ll*c*i*n.<ext>
 c*r*sc*ns.*nlin*
 c*r*sc*ns.<ext>
 *******sm**chm*k*r.<ext>
 *ss*nn*i*.<ext>
-*****di*.<ext>
-g**ss*n*i*.<ext>
-*ss*n*i*m*bil*.<ext>
-*****i*.<ext>
-*******xch*ng*.<ext>
-*****i**nlin*.<ext>
-*******sxch*ng*.<ext>
-my*ss*n*i*.<ext>
-j*in*ss*n*i*.<ext>
-*ss*n*i**xpr*ss.<ext>
-*m-p**hy.<ext>
-m-p**hy.<ext>
-*m-p**hy.<ext>
-*m-p*-*hy.<ext>
-*m-p*-*hy.<ext>
-*-ss*n*i*.<ext>
-*x-*rc*.<ext>
-*x-*rc*.<ext>
-c*s*i*i*.<ext>
-c*s*i*i*.<ext>
-dx*ss*n*i*.<ext>
-dx-*ss*n*i*.<ext>
-dx-*nlin*.<ext>
-dx-m*bil*.<ext>
-g******i*.<ext>
-ph*n*2m*il.us
-2mym*il.<ext>
-2-my-m*il.<ext>
-**-m*il.<ext>
-ph*n*2m*il.inf*
-ph*n*2m*il.<ext>
-*****i*.<ext>
-*****i*.c*
-6134486.<ext>
-xn--4dbgd*i.<ext>
-*******xch*ng*.<ext>
-dxm*bil*.<ext>
-*****i*m*bil*.<ext>
-*****i*.us
-*****i*s*f*w*r*.<ext>
+(...)
 ```
 
 **Did the developer(s) publish it again after the so called "Exodus" wave?
