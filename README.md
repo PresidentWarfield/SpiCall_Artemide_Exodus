@@ -8,20 +8,74 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
 
 **This repository was (somehow) linked to the Exodus mobile malware campaing because**:
 - The package name of the malicious app (that was supposed to be no longer) included in the on-line store was "**it.nv.wat**"
-  -This identifier was immediately associated to a number of apps flagged as malicious, and promptly removed from the store since the end of March 2019, then associated to Exodus spyware family
+  -This identifier was immediately associated to a number of apps flagged as malicious, and promptly removed from the store since the end of March 2019 (**possibly also by the developer itself**) becouse probably associated to Exodus spyware family
 - Match / Correlation performed by hash and developer API value(s) confirmed the malicious nature of the App
   - Developer token (restricted due to privacy) was associated to illegitimate / malicious behaviours as well
   - MD5 checksum of the analysed App was already fingerprinting the spyware via the following hash: **edeea0b34d3f1298a6930e3970401d82**
   
  ## Unexpectedly
- At the moment of the **update** of this README file (**11 APR 2019**), another **spy-app** with the same package name ("**it.nv.wat**"), same code, same developer token but (of course) different MD5 checkusum (**e0d5e0b626183e13c97d2719383c5dd7**) it's again available at the following address (hopefully it will be removed soon): **hXXps://play.google.com/store/apps/details?id=it.nv.wat**
+ At the moment of the **update** of this README file (**11 APR 2019**), another **spy-app** with the same package name ("**it.nv.wat**"), same fingerprints but (of course) different MD5 checkusum (**e0d5e0b626183e13c97d2719383c5dd7**) it's again available at the following address (hopefully it will be removed soon): **hXXps://play.google.com/store/apps/details?id=it.nv.wat**
 
 ![](/screenshots/screenshot005.png)
 
 ![](/screenshots/screenshot004.png)
 
 ## Legitimate question
-**Why this (spy)App is still / again available as a public resource?**
+**Why this (spy)App and similar ones are still / again available as a public resource?**
+
+**We already isolated a number of sensiteve domains, IPs and Developer IDs / Email** (restricted due to privacy)
+
+```
+
+*****i*isr**l.<ext>
+f*ncy-c*ll*c*i*n.<ext>
+c*r*sc*ns.*nlin*
+c*r*sc*ns.<ext>
+*******sm**chm*k*r.<ext>
+*ss*nn*i*.<ext>
+*****di*.<ext>
+g**ss*n*i*.<ext>
+*ss*n*i*m*bil*.<ext>
+*****i*.<ext>
+*******xch*ng*.<ext>
+*****i**nlin*.<ext>
+*******sxch*ng*.<ext>
+my*ss*n*i*.<ext>
+j*in*ss*n*i*.<ext>
+*ss*n*i**xpr*ss.<ext>
+*m-p**hy.<ext>
+m-p**hy.<ext>
+*m-p**hy.<ext>
+*m-p*-*hy.<ext>
+*m-p*-*hy.<ext>
+*-ss*n*i*.<ext>
+*x-*rc*.<ext>
+*x-*rc*.<ext>
+c*s*i*i*.<ext>
+c*s*i*i*.<ext>
+dx*ss*n*i*.<ext>
+dx-*ss*n*i*.<ext>
+dx-*nlin*.<ext>
+dx-m*bil*.<ext>
+g******i*.<ext>
+ph*n*2m*il.us
+2mym*il.<ext>
+2-my-m*il.<ext>
+**-m*il.<ext>
+ph*n*2m*il.inf*
+ph*n*2m*il.<ext>
+*****i*.<ext>
+*****i*.c*
+6134486.<ext>
+xn--4dbgd*i.<ext>
+*******xch*ng*.<ext>
+dxm*bil*.<ext>
+*****i*m*bil*.<ext>
+*****i*.us
+*****i*s*f*w*r*.<ext>
+```
+
+**Did the developer(s) publish it again after the so called "Exodus" wave?
 
 ![](/screenshots/screencast.gif)
 
