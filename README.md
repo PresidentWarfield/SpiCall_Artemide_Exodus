@@ -48,7 +48,13 @@ Some piece of the code are truncated to avoid enticing unauthorized or unethical
 The contents included into this repository have been released into the public domain since the original working application has been deliberately made public without restrictions (as a method of mass infection) through app stores.
 
 ## General Consideration
-The code is a potpourri of already known instruction sets, but **has exposed both the producer and the victim to very high privacy risks**.
+The code is a potpourri of already known instruction sets*, but **has exposed both the producer and the victim to very high privacy risks**.
+
+(*) The App reversed into this repo looks **very similar** to another one we analyzed (wondering **why a stock viewer App needs to record your voice**):
+hXXps://play.google.com/store/apps/details?id=com.accadia.android
+but with part of the instruction set well localized in Italian language.
+
+![](/screenshots/screenshot006.png)
 
 ## Peculiarity
 The MQTT protocol to manage the C2C operations
@@ -62,7 +68,17 @@ It would be enough to backtrack or simply use:
 - The Fabric / CrashLytics credentials
   - To see which devices are / were infected
   
-At the present day C2C (**5.** ...) servers are still up togheter with several stolen data repositories (**80.** ...). 
+At present many C2C servers are still up togheter with several stolen data repositories (some of those shows TCP activity on port TCP 60129 - Darktrack RAT / Dropbear SSHd)
+
+## Conclusion
+Cyber criminals play tricks creating confusion over expired and promptly renewed domain names, app names, etc.
+**Exodus was just a clumsy and miserably failed attempt to copy** the "Multilevel Business Model of Mass Surveillance Market" explained here:
+
+![](/screenshots/D3yRhKWW0AEkPGX.jpg)
+
+Where they failed at point 3 of the workflow, while playing the role of the actor that within intelligence investigations is called "The Mule".
+
+That's it.
 
 ---
 ![](/screenshots/screenshot001.png)
