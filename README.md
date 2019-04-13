@@ -71,12 +71,13 @@ It would be enough to backtrack or simply use:
 At present many C2C servers are still up togheter with several stolen data repositories (some of those shows TCP activity on port TCP 60129 - Darktrack RAT / Dropbear SSHd)
 
 ## Conclusion
-Cyber criminals play tricks creating confusion over expired and promptly renewed domain names, app names, etc.
+Cyber criminals play tricks creating confusion over expired and promptly renewed domain names, app names, etc..
+
 **Exodus was just a clumsy and miserably failed attempt to copy** the "Multilevel Business Model of Mass Surveillance Market" explained here:
 
 ![](/screenshots/D3yRhKWW0AEkPGX.jpg)
 
-Where they failed at point 3 of the workflow, while playing the role of the actor that within intelligence investigations is called "The Mule".
+Where they failed at point 3 of the workflow, while playing the role of the actor that within intelligence investigations is called "**The Mule**".
 
 That's it.
 
