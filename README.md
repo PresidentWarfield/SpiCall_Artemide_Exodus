@@ -27,8 +27,6 @@ This a project created for **Malware Analysis** and **Research purpose**, and is
 
 ![](/screenshots/screencast.gif)
 
-Original screencast available [here](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/blob/master/screenshots/screencast.mp4).
-
 ## Stated that, we think that those repositories are meaningful because everyone can understand how a privacy leak works:
 ### Discover it yourself
 - See how (e.g.) [WhatsApp is intercepted on a phone](https://github.com/PresidentWarfield/SpiCall_Artemide_Exodus/search?p=2&q=whatsapp&unscoped_q=whatsapp):
